@@ -1,5 +1,5 @@
-uuid: 8c2edb6c-e608-4329-9e30-8c9d1aff2508
-langcode: en
+uuid: bc7b98a3-f562-440e-9e3c-a35c5243e6cf
+langcode: es
 status: true
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: Mz9qWr1kUYK0mjRAGDsr5XS6PvtZ24en_7ndt-pyWe4
 id: node.teaser
-label: Teaser
+label: Resumen
 targetEntityType: node
 cache: true

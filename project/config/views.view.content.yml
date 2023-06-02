@@ -1,5 +1,5 @@
-uuid: bc7cb108-f713-4d94-b72e-0a36398d6f7c
-langcode: en
+uuid: a8021f1f-834b-4b87-9161-08b5304b6db1
+langcode: es
 status: true
 dependencies:
   module:
@@ -8,9 +8,9 @@ dependencies:
 _core:
   default_config_hash: vBKWYGGDoAX-tFd1JErB8tZLSxx3lJ0foouVsgpcbB4
 id: content
-label: Content
+label: Contenido
 module: node
-description: 'Find and manage content.'
+description: 'Encontrar y administrar contenido.'
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -21,7 +21,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Content
+      title: Contenido
       fields:
         node_bulk_form:
           id: node_bulk_form
@@ -46,7 +46,7 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: field
-          label: Title
+          label: Título
           exclude: false
           alter:
             alter_text: false
@@ -69,7 +69,7 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: field
-          label: 'Content type'
+          label: 'Tipo de contenido'
           exclude: false
           alter:
             alter_text: false
@@ -269,7 +269,7 @@ display:
           field: area_text_custom
           plugin_id: text_custom
           empty: true
-          content: 'No content available.'
+          content: 'No hay contenido disponible.'
       sorts: {  }
       arguments: {  }
       filters:
@@ -289,7 +289,7 @@ display:
           exposed: true
           expose:
             operator_id: title_op
-            label: Title
+            label: Título
             description: ''
             use_operator: false
             operator: title_op
@@ -331,7 +331,7 @@ display:
           exposed: true
           expose:
             operator_id: type_op
-            label: 'Content type'
+            label: 'Tipo de contenido'
             description: ''
             use_operator: false
             operator: type_op
@@ -593,15 +593,15 @@ display:
       path: admin/content/node
       menu:
         type: 'default tab'
-        title: Content
+        title: Contenido
         description: ''
         weight: -10
         menu_name: admin
         context: ''
       tab_options:
         type: normal
-        title: Content
-        description: 'Find and manage content'
+        title: Contenido
+        description: 'Encuentre y gestione el contenido'
         weight: -10
         menu_name: admin
     cache_metadata:

@@ -1,5 +1,5 @@
-uuid: e4daa7df-a80b-430a-8c27-fe61ec9f55c8
-langcode: en
+uuid: c537c7fa-b09e-438e-a532-8a2fbad75555
+langcode: es
 status: true
 dependencies:
   config:
@@ -11,9 +11,9 @@ dependencies:
 _core:
   default_config_hash: YKgw0f77GEmCu6_6Om9Mbig0mON9JdfVuMxTtd0WQaI
 id: taxonomy_term
-label: 'Taxonomy term'
+label: 'Término de la taxonomía'
 module: taxonomy
-description: 'Content belonging to a certain taxonomy term.'
+description: 'Contenido perteneciente a un determinado término de taxonomía.'
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -46,7 +46,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Aplicar
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
@@ -261,7 +261,7 @@ display:
       tags: {  }
   feed_1:
     id: feed_1
-    display_title: Feed
+    display_title: 'Canal de noticias'
     display_plugin: feed
     position: 2
     display_options:

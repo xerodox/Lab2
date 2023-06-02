@@ -1,5 +1,5 @@
-uuid: 93e0eef3-014b-4a86-b0cf-b66e3a072dad
-langcode: en
+uuid: 1d79fd81-c9fc-4ba0-8e20-72dc5af1cd41
+langcode: es
 status: false
 dependencies:
   config:
@@ -10,9 +10,9 @@ dependencies:
 _core:
   default_config_hash: sz_FoMz5aClG4jFy4UDlkenXQtgTUXohEDjWVBuHaro
 id: glossary
-label: Glossary
+label: Glosario
 module: node
-description: 'All content, by letter.'
+description: 'Todo el contenido, alfabéticamente.'
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -34,7 +34,7 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: field
-          label: Title
+          label: Título
           exclude: false
           alter:
             alter_text: false
@@ -137,7 +137,7 @@ display:
           entity_type: node
           entity_field: changed
           plugin_id: field
-          label: 'Last update'
+          label: 'Última actualización'
           exclude: false
           alter:
             alter_text: false
@@ -204,7 +204,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Aplicar
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
@@ -378,7 +378,7 @@ display:
       tags: {  }
   attachment_1:
     id: attachment_1
-    display_title: Attachment
+    display_title: Adjunto
     display_plugin: attachment
     position: 2
     display_options:
@@ -457,7 +457,7 @@ display:
       path: glossary
       menu:
         type: normal
-        title: Glossary
+        title: Glosario
         weight: 0
         menu_name: main
         parent: ''
