@@ -1,0 +1,11 @@
+uuid: 1d1a5c0e-cac4-43a0-a551-ad20fccdaccc
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.licencias
+id: taxonomy_term.licencias
+target_entity_type_id: taxonomy_term
+target_bundle: licencias
+default_langcode: site_default
+language_alterable: false

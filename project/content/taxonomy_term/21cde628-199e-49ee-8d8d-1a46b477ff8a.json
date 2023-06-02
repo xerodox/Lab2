@@ -1,0 +1,89 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-xerodox-lab2-v42lvg16sxn.ws-us98.gitpod.io\/copyright?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/8080-xerodox-lab2-v42lvg16sxn.ws-us98.gitpod.io\/rest\/type\/taxonomy_term\/licencias"
+        },
+        "https:\/\/8080-xerodox-lab2-v42lvg16sxn.ws-us98.gitpod.io\/rest\/relation\/taxonomy_term\/licencias\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "21cde628-199e-49ee-8d8d-1a46b477ff8a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es",
+            "lang": "es"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "licencias"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-06-02T00:59:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "name": [
+        {
+            "value": "Copyright",
+            "lang": "es"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-xerodox-lab2-v42lvg16sxn.ws-us98.gitpod.io\/rest\/relation\/taxonomy_term\/licencias\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2023-06-02T00:59:01+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/copyright",
+            "pid": 1,
+            "langcode": "es",
+            "lang": "es"
+        }
+    ]
+}

@@ -262,6 +262,7 @@ $databases = [];
  * its location.
  */
 $settings['config_sync_directory'] = '../config';
+$settings['default_content_deploy_content_directory'] = '../content';
 
 /**
  * Settings:

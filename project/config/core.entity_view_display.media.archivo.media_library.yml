@@ -1,0 +1,35 @@
+uuid: d0928ace-345e-4aa6-b0c4-cbd33d24504c
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.archivo.field_media_file
+    - field.field.media.archivo.field_referencia_licencia
+    - image.style.medium
+    - media.type.archivo
+  module:
+    - image
+id: media.archivo.media_library
+targetEntityType: media
+bundle: archivo
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_media_file: true
+  field_referencia_licencia: true
+  langcode: true
+  name: true
+  uid: true
