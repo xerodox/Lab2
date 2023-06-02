@@ -1,0 +1,28 @@
+uuid: fde75ee5-bc1f-4f79-9f65-dda16ede00a4
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.archivos
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: lista_de_archivos
+theme: olivero
+region: content_above
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:archivos-page_1'
+settings:
+  id: 'views_exposed_filter_block:archivos-page_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /archivos
